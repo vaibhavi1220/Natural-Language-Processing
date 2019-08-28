@@ -1,0 +1,23 @@
+The Chatbot is a tool helpful for booking the event spaces available in UWM for various events by authority. The reservation form consists of different fields which need to be filled by the user. The fields include - Event Date, Event name, Estimated Attendance, Time of the event, Type of activity to be conducted, Venue which would be needed, etc. The Chatbot is an interactive tool which uses queries as the medium of interaction with the user. 
+The ChatBot enquires using simple english such as - At what date are you planning to organize? , What time is your event, etc.
+The parser then parses the data to extract the desired output. 
+Thus the ChatBot is very useful as an interactive interface for several tasks.
+This particular Chatbot is useful for booking UWM spaces for various occasions.
+
+Example Scenario:
+At what date do you want to organise?
+20th February
+
+It will extract the date "20 february".
+
+What is the event name?
+TEDx
+
+It will extract and save the form.
+
+
+According to my experience, NLTK does not work accurately with ambiguous data. It does not give accurate results when exposed to ambiguous data.
+
+
+
+The link to the video is : https://youtu.be/LwOzJxxasUg
